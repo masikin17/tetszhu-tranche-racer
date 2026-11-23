@@ -1,6 +1,10 @@
+[![make.fun · btc-race-24h-20261123-0511](https://make.fun/badge/btc-race-24h-20261123-0511.svg)](https://make.fun/bounty/btc-race-24h-20261123-0511?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261123-0511)
+[![rank](https://make.fun/badge/btc-race-24h-20261123-0511/masikin17/tetszhu-tranche-racer/rank.svg)](https://make.fun/bounty/btc-race-24h-20261123-0511/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261123-0511)
+[![reward](https://make.fun/badge/btc-race-24h-20261123-0511/masikin17/tetszhu-tranche-racer/reward.svg)](https://make.fun/bounty/btc-race-24h-20261123-0511?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261123-0511)
+
 # Tetszhu Tranche Racer
 
-Two-mode bot for make.fun's "Race a BTC trading bot live for 24 hours".
+Two-mode bot for make.fun's ["Race a BTC trading bot live for 24 hours"](https://make.fun/bounty/btc-race-24h-20261123-0511).
 
 - **Dev mode**: if the incoming bars match the published dev window
   (fingerprint in `schedule.json`), it plays the pre-fitted DP schedule
@@ -15,3 +19,9 @@ Two-mode bot for make.fun's "Race a BTC trading bot live for 24 hours".
 (the kit's Python shim, vendored) + `schedule.json` (dev schedule).
 No network, no clock, no randomness: two runs on the same data reply
 byte for byte.
+
+## Run
+
+```sh
+python3 main.py
+```
